@@ -1,9 +1,8 @@
-name: Asset Price
+name: Asset Prices
 description: Adapter that aggregates prices of crypto assets from multiple exchanges based on a weighted average of their volume.
-node_identifier: assetprice
+node_identifier: assetprices
 platforms:
   - Docker
-  - Lambda
 data_sources:
   - name: Binance
     url: https://binance.com
